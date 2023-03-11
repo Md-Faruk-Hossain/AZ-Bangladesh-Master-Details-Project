@@ -1,0 +1,129 @@
+{
+  "Files": [
+    {
+      "Id": "H:\\12Blazar\\AZ_Bangladesh_Blazor_WebAssembly\\AZ_Bangladesh\\Server\\wwwroot\\Uploads\\2zi0lqur.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\2zi0lqur.jpg"
+    },
+    {
+      "Id": "H:\\12Blazar\\AZ_Bangladesh_Blazor_WebAssembly\\AZ_Bangladesh\\Server\\wwwroot\\Uploads\\Registers.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Registers.jpg"
+    },
+    {
+      "Id": "H:\\12Blazar\\AZ_Bangladesh_Blazor_WebAssembly\\AZ_Bangladesh\\Server\\wwwroot\\Uploads\\dfhigd5p.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\dfhigd5p.jpg"
+    },
+    {
+      "Id": "H:\\12Blazar\\AZ_Bangladesh_Blazor_WebAssembly\\AZ_Bangladesh\\Server\\wwwroot\\Uploads\\images.png",
+      "PackagePath": "staticwebassets\\Uploads\\images.png"
+    },
+    {
+      "Id": "H:\\12Blazar\\AZ_Bangladesh_Blazor_WebAssembly\\AZ_Bangladesh\\Server\\wwwroot\\Uploads\\k4sgooo4.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\k4sgooo4.jpg"
+    },
+    {
+      "Id": "H:\\12Blazar\\AZ_Bangladesh_Blazor_WebAssembly\\AZ_Bangladesh\\Server\\wwwroot\\Uploads\\o5frddsz.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\o5frddsz.jpg"
+    },
+    {
+      "Id": "H:\\12Blazar\\AZ_Bangladesh_Blazor_WebAssembly\\AZ_Bangladesh\\Server\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "H:\\12Blazar\\AZ_Bangladesh_Blazor_WebAssembly\\AZ_Bangladesh\\Server\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "H:\\12Blazar\\AZ_Bangladesh_Blazor_WebAssembly\\AZ_Bangladesh\\Server\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "H:\\12Blazar\\AZ_Bangladesh_Blazor_WebAssembly\\AZ_Bangladesh\\Server\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "H:\\12Blazar\\AZ_Bangladesh_Blazor_WebAssembly\\AZ_Bangladesh\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "H:\\12Blazar\\AZ_Bangladesh_Blazor_WebAssembly\\AZ_Bangladesh\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "H:\\12Blazar\\AZ_Bangladesh_Blazor_WebAssembly\\AZ_Bangladesh\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "H:\\12Blazar\\AZ_Bangladesh_Blazor_WebAssembly\\AZ_Bangladesh\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "H:\\12Blazar\\AZ_Bangladesh_Blazor_WebAssembly\\AZ_Bangladesh\\Server\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "H:\\12Blazar\\AZ_Bangladesh_Blazor_WebAssembly\\AZ_Bangladesh\\Server\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "H:\\12Blazar\\AZ_Bangladesh_Blazor_WebAssembly\\AZ_Bangladesh\\Server\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "H:\\12Blazar\\AZ_Bangladesh_Blazor_WebAssembly\\AZ_Bangladesh\\Server\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "H:\\12Blazar\\AZ_Bangladesh_Blazor_WebAssembly\\AZ_Bangladesh\\Server\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "H:\\12Blazar\\AZ_Bangladesh_Blazor_WebAssembly\\AZ_Bangladesh\\Server\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "H:\\12Blazar\\AZ_Bangladesh_Blazor_WebAssembly\\AZ_Bangladesh\\Server\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "H:\\12Blazar\\AZ_Bangladesh_Blazor_WebAssembly\\AZ_Bangladesh\\Server\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "H:\\12Blazar\\AZ_Bangladesh_Blazor_WebAssembly\\AZ_Bangladesh\\Server\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "H:\\12Blazar\\AZ_Bangladesh_Blazor_WebAssembly\\AZ_Bangladesh\\Server\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "H:\\12Blazar\\AZ_Bangladesh_Blazor_WebAssembly\\AZ_Bangladesh\\Server\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "H:\\12Blazar\\AZ_Bangladesh_Blazor_WebAssembly\\AZ_Bangladesh\\Server\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "H:\\12Blazar\\AZ_Bangladesh_Blazor_WebAssembly\\AZ_Bangladesh\\Server\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.AZ_Bangladesh.Server.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.AZ_Bangladesh.Server.props",
+      "PackagePath": "build\\AZ_Bangladesh.Server.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.AZ_Bangladesh.Server.props",
+      "PackagePath": "buildMultiTargeting\\AZ_Bangladesh.Server.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.AZ_Bangladesh.Server.props",
+      "PackagePath": "buildTransitive\\AZ_Bangladesh.Server.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

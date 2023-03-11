@@ -1,0 +1,112 @@
+﻿@page "/Orders/Details/{id:int}"
+@using AZ_Bangladesh.Shared.DTO;
+@inject HttpClient http
+<div class="row bg-light shadow ">
+	
+	<div class="row">
+		
+
+		@if (order is null)
+		{
+			<div>Loading...</div>
+		}
+		else
+		{
+			@*<a class="justify-content-sm-end" href="/Orders/Create">Print</a>*@
+			
+			<h3 class="text-center">AZ Bangladesh Ltd</h3>
+			<h4 class="text-center">Order Invoice</h4>
+			<div class="row mb-1">
+				<label class="col-2 text-end">Order Date</label>
+				<div class="col-10">
+					@order.OrderDate.ToString("yyyy-MM-dd")
+				</div>
+			</div>
+			<div class="row mb-1">
+				<label class="col-2 text-end">Customer</label>
+				<div class="col-10">
+					@order.CustomerName
+				</div>
+			</div>
+			<div class="row mb-1">
+				<label class="col-2 text-end">Delivery date</label>
+				<div class="col-10">
+					@order.DeliveryDate?.ToString("yyyy-MM-dd")
+				</div>
+			</div>
+			<div class="row mb-1">
+				<label class="col-2 text-end">Status</label>
+				<div class="col-10">
+					@order.Status
+				</div>
+			</div>
+			@if (orderItems is not null)
+			{
+				<div class=""><h6>Order Item</h6></div>
+				<table class="table table-bordered ">
+					<thead class="table-light shadow">
+						<tr>
+							<th>Product</th>
+							<th>Quantity</th>
+							<th>Price</th>
+							<th>Sub-total</th>
+
+						</tr>
+					</thead>
+					<tbody>
+						@foreach (var oi in orderItems)
+						{
+							<tr>
+								<td>@oi.ProductName</td>
+								<td>@oi.Quantity</td>
+								<td>@oi.Price</td>
+								<td>@((oi.Price * oi.Quantity).ToString("0.00"))</td>
+							</tr>
+						}
+					</tbody>
+					<tfoot>
+						<tr>
+							<td colspan="2"></td>
+							<td><b>Total</b></td>
+							<td>@((orderItems.Sum(x => x.Price)) * (orderItems.Sum(x => x.Quantity)))</td>
+						</tr>
+					</tfoot>
+				</table>
+			}
+		}
+	</div>
+	
+	<div class="form-group row mb-4">
+
+		<div class="col-9 offset-1 mt-3 d-flex justify-content-between">
+
+			
+			<a href="/Orders/List" class="btn btn-outline-success shadow">Back to list</a>
+			<button @onclick="OnPrint">Print</button>
+
+		</div>
+	</div>
+</div>
+
+
+@code {
+
+	[Parameter]
+	public int id { get; set; }
+	[Inject]
+	private IJSRuntime JS { get; set; } = default!;
+	private OrderViewDTO? order;
+	private OrderItemViewDTO[]? orderItems;
+	protected override async Task OnInitializedAsync()
+	{
+		order = await http.GetFromJsonAsync<OrderViewDTO>($"api/Orders/DTO/{id}");
+		if (order is not null)
+		{
+			orderItems = await http.GetFromJsonAsync<OrderItemViewDTO[]>($"api/Orders/Items/{id}");
+		}
+	}
+	public void OnPrint()
+	{
+		JS.InvokeVoidAsync("Print");
+	}
+}

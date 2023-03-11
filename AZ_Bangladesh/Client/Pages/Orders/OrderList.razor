@@ -1,0 +1,75 @@
+﻿@page "/Orders/List"
+@using AZ_Bangladesh.Shared.DTO;
+@inject HttpClient http
+
+<div class="row bg-light shadow">
+    <div class="col-12">
+        <h3>Orders list</h3>
+        <div class="d-flex justify-content-end mb-1">
+            <a class="btn btn-primary btn-sm" href="/Orders/Create">Create New</a>
+        </div>
+        @if(orders is null)
+        {
+            <div>Loading..</div>
+        }
+        else
+        {
+            <table class="table table-bordered">
+                <thead class="table-light">
+                    <tr>
+                        <th>Order Date</th>
+                        <th>Customer</th>
+                        <th>Delivery date</th>
+                        <th>Status</th>
+                        <th>Items</th>
+                        <th>Order Value</th>
+                        <th>Details</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach(var o in orders)
+                    {
+                        <tr>
+                            <td>@o.OrderDate.ToString("yyyy-MM-dd")</td>
+                            <td>@o.CustomerName</td>
+                            <td>@o.DeliveryDate?.ToString("yyyy-MM-dd")</td>
+                            <td>@o.Status</td>
+                            <td>@o.ItemCount</td>
+                            <td>@o.OrderValue.ToString("0.00")</td>
+                            <td>
+                                <a class="btn btn-outline-warning shadow" href="/Orders/Details/@o.OrderID">Details</a>
+                            </td>
+                            <td>
+
+                                <a class="btn btn-outline-primary shadow" href="/Orders/Edit/@o.OrderID">Edit</a>
+                                <button @onclick="@( ()=>Delete(o.OrderID))" class="btn btn-outline-danger shadow">Delete</button>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    </div>
+</div>
+
+@code {
+    private OrderViewDTO[]? orders;
+    protected override async Task OnInitializedAsync()
+    {
+        orders = await http.GetFromJsonAsync<OrderViewDTO[]>("api/Orders/DTO");
+    }
+    private async Task Delete(int id)
+    {
+        var response = await http.DeleteAsync($"api/Orders/{id}");
+        if (response.IsSuccessStatusCode)
+        {
+            //toastService.ShowSuccess("Data deleted successfully", "Success");
+            orders = await http.GetFromJsonAsync<OrderViewDTO[]>("api/Orders/DTO");
+        }
+        else
+        {
+            //toastService.ShowError("Failed to delete data.", "Error");
+        }
+    }
+}

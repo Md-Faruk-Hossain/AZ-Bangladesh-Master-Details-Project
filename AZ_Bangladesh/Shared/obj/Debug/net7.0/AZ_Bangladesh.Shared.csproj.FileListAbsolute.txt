@@ -1,0 +1,12 @@
+H:\12Blazar\AZ_Bangladesh_Blazor_WebAssembly\AZ_Bangladesh\Shared\bin\Debug\net7.0\AZ_Bangladesh.Shared.deps.json
+H:\12Blazar\AZ_Bangladesh_Blazor_WebAssembly\AZ_Bangladesh\Shared\bin\Debug\net7.0\AZ_Bangladesh.Shared.dll
+H:\12Blazar\AZ_Bangladesh_Blazor_WebAssembly\AZ_Bangladesh\Shared\bin\Debug\net7.0\AZ_Bangladesh.Shared.pdb
+H:\12Blazar\AZ_Bangladesh_Blazor_WebAssembly\AZ_Bangladesh\Shared\obj\Debug\net7.0\AZ_Bangladesh.Shared.csproj.AssemblyReference.cache
+H:\12Blazar\AZ_Bangladesh_Blazor_WebAssembly\AZ_Bangladesh\Shared\obj\Debug\net7.0\AZ_Bangladesh.Shared.GeneratedMSBuildEditorConfig.editorconfig
+H:\12Blazar\AZ_Bangladesh_Blazor_WebAssembly\AZ_Bangladesh\Shared\obj\Debug\net7.0\AZ_Bangladesh.Shared.AssemblyInfoInputs.cache
+H:\12Blazar\AZ_Bangladesh_Blazor_WebAssembly\AZ_Bangladesh\Shared\obj\Debug\net7.0\AZ_Bangladesh.Shared.AssemblyInfo.cs
+H:\12Blazar\AZ_Bangladesh_Blazor_WebAssembly\AZ_Bangladesh\Shared\obj\Debug\net7.0\AZ_Bangladesh.Shared.csproj.CoreCompileInputs.cache
+H:\12Blazar\AZ_Bangladesh_Blazor_WebAssembly\AZ_Bangladesh\Shared\obj\Debug\net7.0\AZ_Bangladesh.Shared.dll
+H:\12Blazar\AZ_Bangladesh_Blazor_WebAssembly\AZ_Bangladesh\Shared\obj\Debug\net7.0\refint\AZ_Bangladesh.Shared.dll
+H:\12Blazar\AZ_Bangladesh_Blazor_WebAssembly\AZ_Bangladesh\Shared\obj\Debug\net7.0\AZ_Bangladesh.Shared.pdb
+H:\12Blazar\AZ_Bangladesh_Blazor_WebAssembly\AZ_Bangladesh\Shared\obj\Debug\net7.0\ref\AZ_Bangladesh.Shared.dll
